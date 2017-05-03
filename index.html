@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Testing bootstrap 4 </title>
+
+    <!--Google fonts -->
+    <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Lato">
+
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/6398c88b1a.js"></script>
+
+    <!-- Bootstrap 4.0 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+
+    <!-- My css file -->
+    <link rel="stylesheet" type="" href="css/style.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- Cover -->
+    <section id="cover">
+        <div id="cover-caption">
+            <div class="container">
+                <div class="col-sm-10 offset-sm-1">
+                    <h1>Welcome to test Bootstrap 4</h1>
+                    <p>Just like the older Bootstrap, but better</p>
+
+                    <form action="" class="row">
+                        <div class="form-group col-xl-5 col-lg-5 col-md-12">
+                            <label class="sr-only">Name</label>
+                            <input type="text" class="form-control form-control-lg" placeholder="Name" id="name">
+                        </div>
+        
+                        <div class="form-group col-xl-4 col-lg-4 col-md-12">
+                            <label class="sr-only">Email</label>
+                            <input type="text" class="form-control form-control-lg" placeholder="example@example.com" id="email">
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                            <button type="submit" class="btn btn-outline-secondary btn-lg col-12" id="btnOk">Okay, go!</button>
+                        </div>
+                    </form>
+
+                    <br>
+
+                    <a href="#nav-main" class="btn btn-outline-secondary btn-sm" id="menu-toggle" role="button">&darr;</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cover -->
+
+    <!-- navbar -->
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="nav-main">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Logo</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- what we do -->
+    <section id="what-we-do">
+        <div class="section-content">
+            <div class="container">
+                <h2>What we do</h2>
+                <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum illum, dolore, quia explicabo sint eius sunt,
+                    perferendis ullam suscipit necessitatibus reprehenderit recusandae. Impedit obcaecati repellendus temporibus,
+                    autem ipsa necessitatibus nam. </p>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-group">
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Strategy &amp; Planning</h4>
+                                    <h6 class="card-subtitle">Suport Card subtitle</h6>
+                                </div>
+                                <img src="https://secure.static.tumblr.com/3f28496394cc802dc98f21ac65192009/0evsvje/016n0ukop/tumblr_static_1389727347333.jpg"
+                                    alt="Board">
+                                <div class="card-block">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic magnam sequi, labore
+                                        quo natus fugiat ipsum iusto facilis vitae error voluptas itaque provident, est numquam,
+                                        quisquam repellendus eum suscipit.</p>
+                                    <button type="button" class="btn-outline-success" data-toggle="modal" data-target="#myModal">See more!</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Creative &amp; Design</h4>
+                                    <h6 class="card-subtitle">Suport Card subtitle</h6>
+                                </div>
+                                <img src="https://secure.static.tumblr.com/3f28496394cc802dc98f21ac65192009/0evsvje/016n0ukop/tumblr_static_1389727347333.jpg"
+                                    alt="Board">
+                                <div class="card-block">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic magnam sequi, labore
+                                        quo natus fugiat ipsum iusto facilis vitae error voluptas itaque provident, est numquam,
+                                        quisquam repellendus eum suscipit.</p>
+                                    <button type="button" class="btn-outline-success" data-toggle="modal" data-target="#myModal">See more!</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Programming &amp; Technical</h4>
+                                    <h6 class="card-subtitle">Suport Card subtitle</h6>
+                                </div>
+                                <img src="https://secure.static.tumblr.com/3f28496394cc802dc98f21ac65192009/0evsvje/016n0ukop/tumblr_static_1389727347333.jpg"
+                                    alt="Board">
+                                <div class="card-block">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic magnam sequi, labore
+                                        quo natus fugiat ipsum iusto facilis vitae error voluptas itaque provident, est numquam,
+                                        quisquam repellendus eum suscipit.</p>
+                                        
+                                    <button type="button" class="btn-outline-success" data-toggle="modal" data-target="#myModal">See more!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- what we do -->
+
+    <!-- about -->
+    
+    <section id="about">
+        <div class="section-content">
+            <div class="container">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3>About me</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui obcaecati ipsa veritatis suscipit
+                            aspernatur natus magnam soluta voluptatem vel impedit molestiae ad iste, molestias, commodi,
+                            odio illum officia praesentium enim!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore officiis est, maiores dicta doloribus
+                            ratione ut pariatur et, eius tenetur eligendi quia aperiam. Nemo, facere, architecto. Laboriosam
+                            dolore dolores enim.</p>
+                        <h5>Follow me on the web</h5>
+                        <a href="" class="btn btn-sm btn-outline-secondary">Twitter</a>
+                        <a href="" class="btn btn-sm btn-outline-secondary">Facebook</a>
+                        <a href="" class="btn btn-sm btn-outline-secondary">Youtube</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about -->
+
+    <!-- footer -->
+
+    <footer id="footer-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p>uncopyright 2017. do what you want</p>
+                </div>
+                  <div class="col-sm-4" id="code-by">
+                    <p>code by Tiago Martinho</p>
+                </div>
+                <div class="col-sm-4" id="social-network">
+                    <i class="fa fa-facebook-official"></i>
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+</body>
+
+</html>
