@@ -8,7 +8,7 @@ Website made with Bootstrap 4.0. I made this website with the intention of testi
 
 ## Link
 
-[Website] (https://tiagosmartinho.github.io/Bootstrapv4/)
+* [Website](https://tiagosmartinho.github.io/Bootstrapv4/)
 
 ## License
 
